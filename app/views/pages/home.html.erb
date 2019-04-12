@@ -2,25 +2,25 @@
 <% stylesheet_link_tag "home.css" %>
 </head>
 <body>
-<h1>This is the glorious new home page</h1>
-<p>It is made of win</p>
-<p>In bygone times, men created huge pillars in honor of its glory.
-Such is the majesty of it that poets have filled whole libraries exalting it.</p>
+    <h1>This is the glorious new home page</h1>
+    <p>It is made of win</p>
+    <p>In bygone times, men created huge pillars in honor of its glory.
+    Such is the majesty of it that poets have filled whole libraries exalting it.</p>
 
-<p>I literally don't know how to make interesting web pages.
-I'm a huge to noob to HTML anyway.</p>
+    <p>I literally don't know how to make interesting web pages.
+    I'm a huge to noob to HTML anyway.</p>
 
-<div>
-    <p>This is a typical div.</p>
-    <div style="display: table-row">
-        <div class="sidebyside">
-            <p>This is a red div. </p>
-        </div>
-        <div class="sidebyside">
-            <p>And so is this</p>
+    <%= link_to 'Alpha Blog', articles_path %>
+
+    <div>
+        <p>This is a typical div.</p>
+        <div style="display: table-row">
+            <div class="sidebyside">
+                <p>This is a red div. </p>
+            </div>
+            <div class="sidebyside">
+                <p>And so is this</p>
+            </div>
         </div>
     </div>
-</div>
-
-<%= image_tag("spurdo.png", :alt => "spurdo") %>
 </body>
