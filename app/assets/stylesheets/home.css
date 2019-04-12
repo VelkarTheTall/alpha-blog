@@ -1,5 +1,7 @@
-body {background-color: blue;
-    background-image: url("spurdo.png")
+body {background-color: goldenrod;
+    background-image: url("spurdo.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
 }
 h1 {
     text-align: center;
@@ -10,9 +12,11 @@ p{
     color: white
 }
 div {
-    background-color: grey
+    background-color: grey;
+    opacity: 0.5;
 }
 div.sidebyside {
     background-color: red;
+    opacity: 1;
     display: table-cell
 }
